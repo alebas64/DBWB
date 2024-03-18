@@ -1,0 +1,183 @@
+/*
+risultati stampati
+*/
+#content{
+    justify-content: center;
+    display: flex;
+    overflow: auto;
+    height:98.5%;
+    width: 400px;
+    flex-direction:
+    column;
+}
+
+#hidden{
+    display: none;
+}
+
+.anime{
+    position:relative;
+    margin: 5px 10px;
+    padding: 10px;
+    width: 340px;
+    border:1px solid #dcdcdc;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 5px 5px 2px 5px;
+}
+
+.nome{
+    display:
+    flex;
+    /* flex-direction: column; */
+    width: 90%;
+    vertical-align: center;
+    margin: auto auto 5px auto;
+    /* height: 100%; */
+}
+
+.nome p{
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#textRecensione{
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+    vertical-align:bottom;
+}
+
+#sendButton{
+    height:30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+
+/*
+error 404_fox
+*/
+.fox{
+    height: 500px;
+    margin: 5px 10px;
+    width: calc(100% - 22px);
+    border:1px solid #dcdcdc;
+    display:
+    flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px; */
+    justify-content: space-around;
+}
+
+.imageFOX {
+    display:
+    flex;
+    width: 94%;
+    border: 1px solid #818181;
+    height: 400px;
+    margin: 10px auto auto auto;
+}
+
+.imageFOX img{
+    margin: 5px auto 20px auto;
+    width: 100%;
+    /* max-height: 1200px; */
+    justify-content: center;
+}
+
+/*
+    form di ricerca
+*/
+#search{
+    display: flex;
+    flex-direction: column;
+}
+
+#main{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 78px);
+    width: 50%;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    width:100%;
+    height:20px;
+}
+
+input{
+    width: 100%;
+    height:20px;
+    padding: 0px;
+}
+
+#research{
+    margin: 20px 10px;
+    width: 500px;
+    display: flex;
+    background-color:
+    rgba(134, 133, 133, 0.048)
+}
+
+#main form span{
+    font-size:smaller;
+}
+
+#main form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#main form div{
+    margin: 3px auto 2px auto;
+    width:100%;
+}
+
+.sub{
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+}
+
+.item{
+    display:flex;
+    flex-direction:row;
+    max-width: 50%;
+    justify-content:space-around;
+}
+
+#pages{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#searchBar{
+     width: calc(100% - 4px); 
+}

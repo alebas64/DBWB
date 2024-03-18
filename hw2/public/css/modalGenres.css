@@ -1,0 +1,59 @@
+#modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px;/* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+   /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
+
+/* The Close Button */
+#close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#modal-genres{
+display:flex;  
+margin-left:6.5%;
+margin-right:6.5%;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 10px 0 10px 0;
+overflow:auto;
+height: 80vh;
+}
+
+#modal-genres div{
+border: 2px #fd03ae solid;
+width: 23%;
+display:flex;
+flex-direction: column;
+align-items:center;
+margin-top:5px;
+justify-content: center;
+}

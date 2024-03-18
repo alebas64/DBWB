@@ -1,0 +1,304 @@
+
+.dati-attuali{
+    display:flex;
+    flex-direction:column;
+}
+
+.dati-attuali h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dati-attuali div{
+    display:flex;
+    flex-direction:row;
+}
+
+.dati-attuali span{
+    margin:auto 15px auto 0px;
+    font-size:medium;
+    font-weight:700;
+    width:130px;
+}
+
+.dati-attuali p{
+    
+}
+
+#profile{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+@media(max-width:1250px){
+    #profile{
+        width:40%;
+    }
+}
+#hidden{
+    display: none;
+}
+
+@media(max-width:1250px){
+    .post{
+        width:30%;
+    }
+
+    #modal-post .post{
+        width:90%;
+    }
+}
+
+.post{
+    position:relative;
+    margin: 5px 10px;
+    width: 35%px;
+    border:1px solid #dcdcdc;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image{
+    display:flex;
+    margin: auto;
+    width:250px;
+    justify-content: center;
+}
+
+.image img{
+    width:100%;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.titolo{
+    display:flex;
+    justify-content:center;
+}
+
+.titolo p{
+    margin:3px auto 3px auto;
+    font-weight:bolder;
+    font-family:times;
+    font-size:xx-large;
+}
+
+@media(max-width:1250px){
+    section{
+        display:flex;
+       flex-direction:column; 
+    }
+    
+}
+
+section{
+    display: flex;
+    flex-direction:
+    row;
+    justify-content: space-between;
+    margin: 5px 5px 2px 5px;
+}
+
+.nome{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    vertical-align: top;
+    margin: 7px auto 5px auto;
+    height: 100%;
+
+}
+
+.nome p{
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#selected{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: 2px auto 3px auto;
+}
+
+#selected form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 30px auto 0;
+}
+
+#selected .anime{
+    justify-content:space-around;    
+}
+
+#selected .nome{
+    margin: 15px auto 5px auto;
+}
+
+#selected .image{
+    margin: 2px auto 40px auto;
+}
+
+
+#selected div{
+    display: flex;
+}
+
+#textRecensione{
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+    vertical-align:bottom;
+}
+
+#sendButton{
+    height:30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+#choseAnother{
+    height:30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+error 404_fox
+*/
+.fox{
+    margin: 5px 10px;
+    width: 1000px;
+    border:1px solid #dcdcdc;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imageFOX img{
+    display:flex;
+    margin: 5px auto 20px auto;
+    max-width: 900px;
+    max-height: 1200px;
+    justify-content: center;
+}
+
+/*
+    form di ricerca
+*/
+#search{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    width:calc(100% - 16px);
+    height:20px;
+}
+
+#research{
+    margin-bottom:70px;
+}
+@media(max-width:1250px){
+    #main{
+        margin: 70px auto 0px auto;
+        width: 95%;
+        justify-content:space-around;
+    }
+    
+    #main form{
+        width:30%;
+    }
+
+    .fox{
+        margin: 5px 10px;
+        width: 500px;
+        border:1px solid #dcdcdc;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .imageFOX img{
+        display:flex;
+        margin: 5px auto 20px auto;
+        max-width: 450px;
+        max-height: 900px;
+        justify-content: center;
+    }
+}
+
+#main{
+    margin: 70px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 78px);
+    width: 90%;
+}
+
+#main form span{
+    font-size:smaller;
+}
+
+#main form{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#main form div{
+    margin: 3px auto 2px auto;
+    width:100%;
+}
+
+.radio{
+    display:flex;
+    flex-direction: column;
+}
+
+.radio p{
+    margin: 0px;
+    width:100%;
+    text-align:center;
+}
+
+.sub{
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+}
+
+.item{
+    display:flex;
+    flex-direction:row;
+    max-width: 50%;
+    justify-content:space-around;
+}
+
+.error{
+    color:red;
+    display:block;
+    height: 15px;
+    margin: 0px auto 3px auto;
+}

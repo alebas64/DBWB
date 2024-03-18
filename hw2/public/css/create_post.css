@@ -1,0 +1,246 @@
+/*
+risultati stampati
+*/
+
+@media(max-width:1779px){
+    #content{
+        justify-content:center;
+    }
+    #search{
+        width:45%;
+    }
+}
+
+#content{
+    display: flex;
+    overflow: auto;
+    height:98.5%;
+    width: 96%;
+    flex-wrap: wrap;
+}
+
+#hidden{
+    display: none;
+}
+
+.anime{
+    position:relative;
+    margin: 5px 10px;
+    width: 340px;
+    border:1px solid #dcdcdc;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image{
+    display:flex;
+    margin: auto;
+    width:250px;
+    justify-content: center;
+}
+
+.image img{
+    width:100%;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 5px 5px 2px 5px;
+}
+
+.nome{
+    display:
+    flex;
+    flex-direction: column;
+    width:280px;
+    /* vertical-align: top; */
+    margin: 7px auto 5px auto;
+    /* height: 100%; */
+}
+
+.nome p{
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#selected{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    width: 80vw;
+    margin: 90px auto 3px auto;
+    align-items: center;
+    flex-direction: row;
+    height: 80vh;
+}
+
+#selected form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto 30px auto 0;
+}
+
+#selected .anime{
+    justify-content:space-around;    
+}
+
+#selected .nome{
+    margin: 15px auto 5px auto;
+}
+
+#selected .image{
+    margin: 2px auto 40px auto;
+}
+
+
+#selected div{
+    display: flex;
+}
+
+#textRecensione{
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+    vertical-align:bottom;
+}
+
+#sendButton{
+    height:30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+#choseAnother{
+    height:30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+error 404_fox
+*/
+.fox{
+    height: 800px;
+    margin: 5px 10px;
+    width: calc(100% - 24px);
+    border:1px solid #dcdcdc;
+    display:
+    flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 400px; */
+    justify-content: space-around;
+}
+
+.imageFOX {
+    display:
+    flex;
+    /* width: 94%; */
+    border: 1px solid #818181;
+    height: 94%;
+    margin: 10px auto auto auto;
+}
+
+.imageFOX img{
+    margin: 5px auto 20px auto;
+    width: 100%;
+    /* max-height: 1200px; */
+    justify-content: center;
+}
+/*
+    form di ricerca
+*/
+#search{
+    display: flex;
+    flex-direction: column;
+}
+
+#main{
+    margin: 70px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 78px);
+    width: 90%;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    width:100%;
+    height:20px;
+}
+
+input{
+    width:100%;
+    height:20px;
+}
+
+#research{
+    margin-bottom:70px;
+    background-color:rgba(134, 133, 133, 0.048)
+}
+
+#main form span{
+    font-size:smaller;
+}
+
+#main form{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#main form div{
+    margin: 3px auto 2px auto;
+    width:100%;
+}
+
+.radio{
+    display:flex;
+    flex-direction: column;
+}
+
+.radio p{
+    margin: 0px;
+    width:100%;
+    text-align:center;
+}
+
+.sub{
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+}
+
+.item{
+    display:flex;
+    flex-direction:row;
+    max-width: 50%;
+    justify-content:space-around;
+}
+
+#pages{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

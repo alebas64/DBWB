@@ -1,0 +1,125 @@
+#content{
+    display: flex;
+    overflow: auto;
+    height:85vh;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:rgba(134, 133, 133, 0.048);
+    justify-content: center;
+}
+
+@media(max-width:650px){
+    .post{
+        width:85%;
+    }
+}
+
+.post{
+    margin: 5px 10px;
+    width: 600x;
+    border:1px solid #dcdcdc;
+    display:
+    flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 460px;
+}
+
+.nLikes_comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nLikes_comments img{
+    width: 40px;
+    height: 40px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    
+}
+
+.sub div{
+    margin-left: 10px;
+}
+
+.animePIC{
+    width:250px;
+    justify-content: center;
+}
+
+.animePIC img{
+    width:100%;
+    border-radius: 2px;
+}
+
+@media(max-width:600px){
+    section{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 5px 5px 2px 5px;
+}
+
+.userContent{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    vertical-align: top;
+    margin-top: 7px;
+    margin-left:8px;
+    height: 100%;
+
+}
+
+    .animeTITLE{
+        margin: 0 auto;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .description{
+        margin: 0 auto;
+        display: flex;
+        text-align: left;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .creatorTag{
+        margin: 0 auto;
+        display:flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: small;
+        text-align: right;
+    }
+
+    .creationDate{
+        margin: 0 auto;
+        display:flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: smaller;
+        text-align: right;
+    }
+
+.fix{
+    margin-top:95px;
+}
